@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  background-color: bisque;
+}
+
+#application{
+  text-align: center;
+}
+
+#odd{
+  background-color: rgba(209, 52, 52, 0.534);
+}
+
+#even{
+  background-color: aquamarine;
+}
+
+#main{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+#submit-btn1{
+  visibility: hidden;
+}
+
+table{
+  text-align: center;
+}
+.container{
+  float: inline-end;
+}
+/* .container input{
+  padding: 70px 0;
+} */
+
+/* #test{
+  text-align: left;
+} */

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Manager</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    #paina {
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+    .dropdown:hover>.dropdown-menu {
+      display: block;
+    }
+
+    .nav-item:hover {
+      font-weight: bold;
+    }
+
+    .dropdown:hover {
+      font-weight: bold;
+    }
+
+    .col-md-7 {
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="paina" id="paina">
+    MANAGE YOUR PASSWORDS || GENERATE NEW AND STRONG PASSWORDS
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:bisque;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Password Manager</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="http://localhost/WT/pass_in.php">Manage Passwords</a></li>
+              <li><a class="dropdown-item" href="generatepasswords.html">Generate new and stronger passwords</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Info
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Aakash</a></li>
+              <li><a class="dropdown-item" href="#">Anvitha</a></li>
+              <li><a class="dropdown-item" href="#">Sphoorthy</a></li>
+              <li><a class="dropdown-item" href="#">Pavan kumar</a></li>
+              <li><a class="dropdown-item" href="#">Pavan</a></li>
+              <li><a class="dropdown-item" href="#">sindhuja</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="pricing.html">Pricing</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search....." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>&nbsp&nbsp
+          <div class="btn-group me-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-outline-secondary" onclick="location.href='login.html'">Login</button>
+            <button type="button" class="btn btn-outline-secondary"
+              onclick="location.href='signup.html'">Signup</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <div class="row">
+    <div class="col-md-7">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://securecdn.pymnts.com/wp-content/uploads/2016/08/password-hacking-1000x600.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://assets.thehansindia.com/h-upload/2020/01/20/255474-hacker.webp" class="d-block w-100"
+              alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.tmcnet.com/tmc/misc/articles/image/2021-aug/5340500013-AdobeStock_49921995_password_SUPERSIZE.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row-feature" style="margin-left: 20px;">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Are you worried about your digital safety? <span class="text-muted">We
+            got you covered</span>
+        </h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
+          prose here.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://cdn.windowsreport.com/wp-content/uploads/2018/01/Antivirus-930x620.jpg" alt=""
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for
+            yourself.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
+          this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="https://cdn.windowsreport.com/wp-content/uploads/2018/08/Password-930x620.jpg" alt=""
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 ">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
+          intended to be actually read, simply here to give you a better view of what this would look like
+          with some
+          actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="https://static.langimg.com/thumb/msid-84496485,imgsize-117931,width-700,height-525,resizemode-75/navbharat-times.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+          alt="">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+  </div>
+  <!--Section: Contact v.2-->
+  <section class="mb-4" style="padding: 5px; background-color: bisque;">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
+      directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="name" name="name" class="form-control">
+                <label for="name" class="">Your name</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="email" name="email" class="form-control">
+                <label for="email" class="">Your email</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+          <br>
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <input type="text" id="subject" name="subject" class="form-control">
+                <label for="subject" class="">Subject</label>
+              </div>
+            </div>
+          </div>
+          <!--Grid row-->
+          <br>
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-12">
+
+              <div class="md-form">
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                <label for="message">Your message</label>
+              </div>
+
+            </div>
+          </div>
+          <!--Grid row-->
+
+        </form>
+
+        <div class="text-center text-md-left">
+          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+        <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center"
+        style="border: solid; align-items: center;padding: 80px; background-color: white; ">
+        <ul class="list-unstyled mb-0">
+          <li><i class="fas fa-map-marker-alt fa-2x"></i>
+            <p>Hyderabaf, 500001, India</p>
+          </li>
+
+          <li><i class="fas fa-phone mt-4 fa-2x"></i>
+            <p>+91 9748489467</p>
+          </li>
+
+          <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+            <p>passwordmanager@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <br>
+  </section>
+  <!--Section: Contact v.2-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

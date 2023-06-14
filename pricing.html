@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        #paina {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .col-sm-4 {
+            border: 2px solid;
+        }
+
+        .dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+
+        .nav-item:hover {
+            font-weight: bold;
+        }
+
+        .dropdown:hover {
+            font-weight: bold;
+        }
+
+        .about-us-heading {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .about-us-main {
+            border: solid 2px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="paina" id="paina">
+        MANAGE YOUR PASSWORDS || GENERATE NEW AND STRONG PASSWORDS
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:bisque;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Password Manager</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Manage Passwords</a></li>
+                            <li><a class="dropdown-item" href="#">Generate new and stronger passwords</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Aakash</a></li>
+                            <li><a class="dropdown-item" href="#">A. Manikanta</a></li>
+                            <li><a class="dropdown-item" href="#">Devendar</a></li>
+                            <li><a class="dropdown-item" href="#">Ruchita</a></li>
+                            <li><a class="dropdown-item" href="#">Deekshitha</a></li>
+                            <li><a class="dropdown-item" href="#">Sanjana</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="pricing.html">Pricing</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search....." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>&nbsp&nbsp
+                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                        <button type="button" class="btn btn-outline-secondary"
+                            onclick="location.href='login.html'">Login</button>
+                        <button type="button" class="btn btn-outline-secondary"
+                            onclick="location.href='signup.html'">Signup</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Pricing</h1>
+            <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this
+                Bootstrap example. It's built with default Bootstrap components and utilities with little customization.
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Free</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Rs.0<small class="text-muted fw-light">/mo</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-danger">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Rs.2699<small class="text-muted fw-light">/mo</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-danger">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-white bg-danger border-danger">
+                        <h4 class="my-0 fw-normal">Enterprise</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Rs.4299<small class="text-muted fw-light">/mo</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-danger">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <hr>
+    <section class="mb-4" style="padding: 5px; background-color: bisque; ">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
+            directly. Our team will come back to you within
+            a matter of hours to help you.</p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+                    <br>
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                    <br>
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center" style="border: solid; align-items: center;padding: 80px; background-color: white; ">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Hyderabaf, 500001, India</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+91 9748489467</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>passwordmanager@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+        </div>
+<br>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

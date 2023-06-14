@@ -1,0 +1,39 @@
+body{
+  text-align: center;
+  background-color: bisque;
+}
+
+#application{
+  text-align: center;
+}
+
+#odd{
+  background-color: rgba(209, 52, 52, 0.534);
+}
+
+#even{
+  background-color: aquamarine;
+}
+
+#main{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+#submit-btn1{
+  visibility: hidden;
+}
+
+.username_password_manager{
+  display: block;
+  margin:auto;
+}
+
+table{
+  text-align: center;
+}
+
+button{
+  text-decoration: none;
+}
